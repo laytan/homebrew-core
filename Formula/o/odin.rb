@@ -18,8 +18,8 @@ class Odin < Formula
   end
 
   depends_on "glfw"
-  depends_on "lld@20"
-  depends_on "llvm@20"
+  depends_on "lld"
+  depends_on "llvm"
   depends_on "raylib"
 
   resource "raygui" do
